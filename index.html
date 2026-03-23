@@ -17,15 +17,24 @@
     .block { text-align: left; }
     h1 { font-size: 1.8rem; font-weight: bold; margin: 0 0 0.3rem; }
     p.sub { font-size: 1rem; color: #4a5a7a; margin: 0 0 0.3rem; }
-    a { font-size: 1rem; color: #1a2a4a; text-decoration: none; }
+    a.email { font-size: 1rem; color: #1a2a4a; text-decoration: none; }
+    a.scholar { font-size: 0.8rem; color: #1a73e8; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .links { margin-top: 0.3rem; display: flex; flex-direction: column; gap: 0.2rem; }
+    .tracker { margin-top: 2.5rem; }
   </style>
 </head>
 <body>
   <div class="block">
     <h1>Halil İbrahim Çorbalı</h1>
     <p class="sub">Personal Website</p>
-    <a href="mailto:halilibrahimcorbali@gmail.com">halilibrahimcorbali@gmail.com</a>
+    <div class="links">
+      <a class="email" href="mailto:halilibrahimcorbali@gmail.com">halilibrahimcorbali@gmail.com</a>
+      <a class="scholar" href="https://scholar.google.com/citations?user=5KHg3g8AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    </div>
+    <div class="tracker">
+      <img src="https://hits.sh/halilcorbali.com.svg?style=flat&label=visitors&color=1a2a4a&labelColor=c8c8c8" alt="visitor count"/>
+    </div>
   </div>
 </body>
 </html>
